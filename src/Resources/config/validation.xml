@@ -20,7 +20,9 @@
             <constraint name="NotNull"/>
             <constraint name="NotBlank"/>
         </property>
+        <!-- Resize to, but DO NOT force those dimensions // Kyeno
         <constraint name="Sonata\MediaBundle\Validator\Constraints\ImageUploadDimension"/>
+        -->
     </class>
     <class name="Sonata\MediaBundle\Model\Gallery">
         <constraint name="Sonata\MediaBundle\Validator\Constraints\ValidMediaFormat"/>
